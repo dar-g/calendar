@@ -1,0 +1,89 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif, "century gothic";
+}
+
+.container{
+	margin: 0 auto;
+	width: 774mm;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.year-wrap {
+	margin: 20mm 0 0 0;
+}
+.month-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item-common-style {
+	display: flex;
+	height: 40mm;
+	margin: 0 2mm 2mm 0;
+}
+.month-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 84mm;
+	color: grey;
+	font-size: 12mm;
+}
+.day-item{
+	position: relative;
+	width: 40mm;
+	border: 0.5mm solid lightgrey;
+	border-radius: 5%;
+}
+.day-item_hidden {
+	border: none;
+	width: 40.8mm;
+}
+.day-number {
+	/*display: none;*/
+	position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 4mm;
+}
+.day {
+	font-size: 5mm;
+}
+.day-item_weekend {
+	color: lightgrey;
+}
+.day {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.weekday {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	font-size: 4mm;
+}
+
+.header-year-border {
+	border-top: 1mm solid lightgrey;
+	border-bottom: 1mm solid lightgrey;
+	padding: 1%;
+	margin: 20mm 0 10mm 0;
+}
+.header-year {
+	text-align: center;
+	font-size: 25mm;
+	font-weight: bold;
+	color: grey;
+}
